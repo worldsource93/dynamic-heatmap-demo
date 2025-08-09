@@ -1,4 +1,4 @@
-@import "node_modules/ol/ol.css";
+@import "ol/ol.css";
 html,
 body {
     margin: 0;
@@ -17,8 +17,8 @@ body {
 
 .control {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 8px;
+    left: 40px;
     background: white;
     padding: 8px;
     border-radius: 4px;
@@ -38,13 +38,4 @@ body {
 .sliderBox {
     display: flex;
     align-items: center;
-}
-
-#play-btn {
-    appearance: none;
-    border: none;
-    background-color: #000;
-    color: #fff;
-    border-radius: 4px;
-    padding: 4px 8px;
 }

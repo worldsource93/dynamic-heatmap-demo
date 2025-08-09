@@ -70,7 +70,5 @@ const updateRank = debounce((rank) => {
 
 slider.addEventListener('input', (e) => {
     const rank = parseInt(e.target.value, 10);
-    rankValue.textContent = rank;
-
     updateRank(rank);
 });
