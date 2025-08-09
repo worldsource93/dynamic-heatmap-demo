@@ -1,18 +1,7 @@
-# OpenLayers + Vite
+# Dynamic heatmap demo
 
-This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).
-
-To get started, run the following (requires Node 14+):
-
-    npx create-ol-app my-app --template vite
-
-Then change into your new `my-app` directory and start a development server (available at http://localhost:5173):
-
-    cd my-app
-    npm start
-
-To generate a build ready for production:
-
-    npm run build
-
-Then deploy the contents of the `dist` directory to your server.  You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+- 현재 클라이언트에서 rankValue에 따라 필요 데이터만 받아와서 히트맵을 새로 그림
+- 슬라이드에 디바운싱 적용
+- 전체 데이터 받아와서 메모리에 올려두는 방법도 있지만 초기 로딩속도 문제 있음
+- progress 미구현
+- 필요내용 추가로 구현해서 사용하시면 되겠습니다.
